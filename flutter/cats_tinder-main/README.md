@@ -1,5 +1,7 @@
 # Cat Tinder
 
+- link 
+
 Trebuie sa creati mai multe widget-uri si dupa sa le folositi pentru a scrie o pagina a unei aplicatii. La final, trebuie sa arate in felul urmator:
 
 Puteti sa incepeti prin a va clona repository-ul ruland comanda asta intr-un folder la alegere:
