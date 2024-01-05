@@ -1,6 +1,6 @@
 # Cat Tinder
 
-- link 
+- link https://flutter.svs.ong/#/./exercitii/cat_tinder
 
 Trebuie sa creati mai multe widget-uri si dupa sa le folositi pentru a scrie o pagina a unei aplicatii. La final, trebuie sa arate in felul urmator:
 
