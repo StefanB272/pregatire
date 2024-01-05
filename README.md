@@ -7,3 +7,6 @@ Inainte de executa comenzile trebuie sa fii in fisierul parinte
 - git add . //adaugi tot in lista de fisiere
 - git commit -m "message"
 - git push origin main
+
+## Pentru a descarca ce exista pe repository
+- git pull origin main
