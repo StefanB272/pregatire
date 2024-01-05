@@ -18,10 +18,7 @@ void main() {
     }
   }
   if (pozmin > pozmax) {
-    int h = 0;
-    int j = pozmin;
-    int g = pozmax;
-    h = pozmin;
+    int h = pozmin;
     pozmin = pozmax;
     pozmax = h;
   }
