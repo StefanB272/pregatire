@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
       home: StartScreen(
-        animalsList: [],
+        animalsList: animals,
       ),
     );
   }

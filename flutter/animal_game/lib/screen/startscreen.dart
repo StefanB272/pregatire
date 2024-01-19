@@ -36,13 +36,13 @@ class StartScreen extends StatelessWidget {
               height: 50,
               decoration: BoxDecoration(
                 color: Colors.green,
-                borderRadius: BorderRadius.all(Radius.circular(20)),
+                borderRadius: BorderRadius.all(Radius.circular(15)),
                 boxShadow: [
                   BoxShadow(
-                      color: Colors.yellow.withOpacity(0.8),
-                      spreadRadius: 15,
-                      blurRadius: 50,
-                      offset: Offset(15, 15))
+                      color: Colors.black12,
+                      spreadRadius: 8,
+                      blurRadius: 10,
+                      offset: Offset(3, 3))
                 ],
               ),
             ),
