@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "animal_game",
+            "cwd": "flutter\\animal_game",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "animal_game (profile mode)",
+            "cwd": "flutter\\animal_game",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "animal_game (release mode)",
+            "cwd": "flutter\\animal_game",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "catei_pe_mobile",
+            "cwd": "flutter\\catei_pe_mobile",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "catei_pe_mobile (profile mode)",
+            "cwd": "flutter\\catei_pe_mobile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "catei_pe_mobile (release mode)",
+            "cwd": "flutter\\catei_pe_mobile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cats_tinder-main",
+            "cwd": "flutter\\cats_tinder-main",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cats_tinder-main (profile mode)",
+            "cwd": "flutter\\cats_tinder-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cats_tinder-main (release mode)",
+            "cwd": "flutter\\cats_tinder-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
