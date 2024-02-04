@@ -29,23 +29,30 @@ class StartScreen extends StatelessWidget {
             SizedBox(
               height: height / 3,
             ),
-            Container(
-              child: Text("Start"),
-              alignment: Alignment.center,
-              width: 200,
-              height: 50,
-              decoration: const BoxDecoration(
-                color: Colors.green,
-                borderRadius: BorderRadius.all(Radius.circular(15)),
-                boxShadow: [
-                  BoxShadow(
-                      color: Colors.black12,
-                      spreadRadius: 8,
-                      blurRadius: 10,
-                      offset: Offset(3, 3))
-                ],
-              ),
-            ),
+
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).pushReplacementNamed("/play");
+                },
+                child: Text("START")),
+            // Container(
+
+            //   child: Text("Start"),
+            //   alignment: Alignment.center,
+            //   width: 200,
+            //   height: 50,
+            //   decoration: const BoxDecoration(
+            //     color: Colors.green,
+            //     borderRadius: BorderRadius.all(Radius.circular(15)),
+            //     boxShadow: [
+            //       BoxShadow(
+            //           color: Colors.black12,
+            //           spreadRadius: 8,
+            //           blurRadius: 10,
+            //           offset: Offset(3, 3))
+            //     ],
+            //   ),
+            // ),
             SizedBox(
               height: height / 5,
             ),
