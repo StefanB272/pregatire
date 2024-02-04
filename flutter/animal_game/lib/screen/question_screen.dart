@@ -12,9 +12,16 @@ class QuestionScreen extends StatelessWidget {
     return Scaffold(
         body: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        Image.network(Assets.marianurl),
+        Container(
+          height: 200,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: NetworkImage(Assets.marianurl),
+            ),
+          ),
+        ),
         Text(
           animalProperty.question,
           textAlign: TextAlign.center,
