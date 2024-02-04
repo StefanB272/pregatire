@@ -8,7 +8,7 @@ class Animal {
   Animal({
     required this.nume,
     required this.imageUrl,
-    required this.properties,
+    this.properties = const [],
   });
 
   bool hasProperty(AnimalProperty property) {

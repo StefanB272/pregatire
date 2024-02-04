@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:project1/model/animal_property.dart';
+import 'package:project1/model/assets.dart';
 
 class QuestionScreen extends StatelessWidget {
   QuestionScreen({required this.animalProperty});
@@ -12,11 +14,13 @@ class QuestionScreen extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
+        Image.network(Assets.marianurl),
         Text(
           animalProperty.question,
           textAlign: TextAlign.center,
-          style: TextStyle(
-              fontStyle: FontStyle.italic, fontSize: 32), //Shadows Into Light
+          // style: TextStyle(
+          //     fontStyle: FontStyle.italic, fontSize: 32), //Shadows Into Light
+          style: GoogleFonts.shadowsIntoLight(fontSize: 32),
         ),
         SizedBox(height: 10),
         Column(
