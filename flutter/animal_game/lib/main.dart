@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         //   animalsList: animals,
         // ),
         home: QuestionScreen(
-          animalProperty: AnimalProperty.fourLegs,
+          animalProperty: AnimalProperty.carnivore,
         ));
   }
 }

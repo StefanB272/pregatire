@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/animal_game/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/animal_game/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/animal_game/build" />
+      <excludeFolder url="file://$MODULE_DIR$/catei_pe_mobile/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/catei_pe_mobile/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/catei_pe_mobile/build" />
+      <excludeFolder url="file://$MODULE_DIR$/cats_tinder-main/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/cats_tinder-main/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/cats_tinder-main/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ugly_text/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/ugly_text/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/ugly_text/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
