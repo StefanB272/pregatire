@@ -34,7 +34,7 @@ class StartScreen extends StatelessWidget {
               alignment: Alignment.center,
               width: 200,
               height: 50,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.green,
                 borderRadius: BorderRadius.all(Radius.circular(15)),
                 boxShadow: [

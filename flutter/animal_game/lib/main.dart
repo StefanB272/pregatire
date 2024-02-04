@@ -28,15 +28,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(),
-        //   home: StartScreen(
-        //     animalsList: animals,
-        //   ),
-        // );
-        home: QuestionScreen(
-          animalProperty: AnimalProperty.carnivore,
-        ));
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(),
+      //   home: StartScreen(
+      //     animalsList: animals,
+      //   ),
+      // );
+      // home: QuestionScreen(
+      //   animalProperty: AnimalProperty.carnivore,
+      // ),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => StartScreen(animalsList: animals),
+        '/play': (context) =>
+            QuestionScreen(animalProperty: AnimalProperty.carnivore),
+      },
+    );
   }
 }
