@@ -1,11 +1,25 @@
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:project1/model/animal_property.dart';
 import 'package:project1/model/assets.dart';
 
-class QuestionScreen extends StatelessWidget {
+class QuestionScreen extends StatefulWidget {
   QuestionScreen({required this.animalProperty});
   AnimalProperty animalProperty;
+
+  @override
+  State<QuestionScreen> createState() => _QuestionScreenState();
+}
+
+class _QuestionScreenState extends State<QuestionScreen> {
+  void respons(bool istrue) {
+    print(istrue);
+    setState(() {
+      widget.animalProperty = AnimalProperty.fourLegs;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +53,7 @@ class QuestionScreen extends StatelessWidget {
           ),
         ),
         Text(
-          animalProperty.question,
+          widget.animalProperty.question,
           textAlign: TextAlign.center,
           // style: TextStyle(
           //     fontStyle: FontStyle.italic, fontSize: 32), //Shadows Into Light
@@ -50,14 +64,18 @@ class QuestionScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  respons(true);
+                },
                 child: Text("YES!",
                     style: TextStyle(
                         fontStyle: FontStyle.italic,
                         fontSize: 36))), //Rubik Scribble
             SizedBox(height: 10),
             ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  respons(false);
+                },
                 child: Text("NO!",
                     style:
                         TextStyle(fontStyle: FontStyle.italic, fontSize: 36))),
@@ -66,6 +84,6 @@ class QuestionScreen extends StatelessWidget {
       ],
     ));
 
-    return Center(child: Text(animalProperty.question));
+    return Center(child: Text(widget.animalProperty.question));
   }
 }
