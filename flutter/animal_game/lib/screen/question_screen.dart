@@ -15,6 +15,22 @@ class QuestionScreen extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Container(
+          margin: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).pushReplacementNamed("/");
+                },
+                child: Icon(Icons.home),
+              )
+              // Icon(Icons.home),
+              // Icon(Icons.settings),
+            ],
+          ),
+        ),
+        Container(
           height: 200,
           decoration: BoxDecoration(
             image: DecorationImage(
@@ -27,7 +43,7 @@ class QuestionScreen extends StatelessWidget {
           textAlign: TextAlign.center,
           // style: TextStyle(
           //     fontStyle: FontStyle.italic, fontSize: 32), //Shadows Into Light
-          style: GoogleFonts.shadowsIntoLight(fontSize: 32),
+          style: GoogleFonts.bahianita(fontSize: 42),
         ),
         SizedBox(height: 10),
         Column(
